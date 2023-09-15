@@ -157,7 +157,7 @@ export const education = [
     date: "July 2019 - July 2023",
     grade: "9.32 CGPA",
     desc: "I am a B. Tech Graduate From Academy of Technology in the department of Information Technology. I have also gone through different topics such as Data Structure and Algorithms, OOPs ets throughout my entire curriculam",
-    degree: "Bachelor of Technology - BTech, Computer Science and Engineering",
+    degree: "Bachelor of Technology - BTech, Information Technology",
   },
   {
     id: 1,
@@ -187,7 +187,7 @@ export const experiences = [
     role: "Persistent Summer Intern",
     company: "Persistent Systems",
     date: "May 2022 - August 2022",
-    desc: "This was a summer internship program ny Persistent Systems in which we are trained through different domains such as Operating Systems, Core Java Concepts, OOps Conceprts",
+    desc: "This was a summer internship program in Persistent Systems in which we are trained through different domains such as Operating Systems, Core Java Concepts, OOps Conceprts",
     skills: [
       "Operating System",
       "Data Structure & Algorithms",

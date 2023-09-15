@@ -103,7 +103,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.github} target="display"><GitHub /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
-          &copy; 2023 Rishav Chanda. All rights reserved.
+          &copy; 2023 Biswajit Ghosh. All rights reserved.
         </Copyright>
 
       </FooterWrapper>
