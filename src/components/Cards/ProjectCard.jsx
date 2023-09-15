@@ -15,9 +15,10 @@ const Button = styled.button`
     cursor: pointer;
     transition: all 0.8s ease-in-out;
 `
-const Card = styled.div`
+const Card = styled.a`
+    text-decoration: none;
     width: 330px;
-    height: 490px;
+    height: 460px;
     background-color: ${({ theme }) => theme.card};
     cursor: pointer;
     border-radius: 10px;
@@ -102,15 +103,14 @@ const Description = styled.div`
     margin-top: 8px;
     display: -webkit-box;
     max-width: 100%;
-    -webkit-line-clamp: 3;
     -webkit-box-orient: vertical;
     text-overflow: ellipsis;
 `
 
 
-const ProjectCards = ({project,setOpenModal}) => {
+const ProjectCards = ({project}) => {
     return (
-        <Card onClick={() => setOpenModal({state: true, project: project})}>
+        <Card href={project.link} target= "_blank" rel="noreferrer">
             <Image src={project.image}/>
             <Tags>
                 {project.tags?.map((tag, index) => (

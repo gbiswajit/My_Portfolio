@@ -1,7 +1,7 @@
 import crypto from "../images/crypto.png"
 import sorting from "../images/sorting.png"
 import store from "../images/store.png"
-
+import portfolio from "../images/portfolio.png"
 export const Bio = {
   name: "Biswajit Ghosh",
   roles: [
@@ -11,9 +11,9 @@ export const Bio = {
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
-  github: "https://github.com/Biswajit2406",
+  github: "https://github.com/gbiswajit",
   resume:
-    "https://drive.google.com/file/d/19kRBOZg4KjqK8AtM6of9iHLIAsY2Je7k/view",
+    "https://drive.google.com/file/d/1MZSBL4nJ0cfKZsj3bAX2mk_auWqFgyfl/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/biswajit-ghosh-0661071aa/",
   insta: "https://www.instagram.com/_nerdturtlez_/",
   facebook: "https://www.facebook.com/profile.php?id=100021541531348",
@@ -213,10 +213,10 @@ export const projects = [
       "Javascript",
       "scss"
     ],
-    github: "https://github.com/Biswajit2406/Online_Store",
+    link: "https://github.com/Biswajit2406/Online_Store",
   },
   {
-    id: 0,
+    id: 1,
     title: "Crypto Tracker",
     date: "November 2022",
     description:
@@ -229,11 +229,10 @@ export const projects = [
       "Javascript",
       "css"
     ],
-    github: "https://github.com/Biswajit2406/Crypto-Tracker",
-    webapp: "https://biswajit2406.github.io/Crypto-Tracker/",
+    link: "https://gbiswajit.github.io/Crypto_Tracker/",
   },
   {
-    id: 0,
+    id: 2,
     title: "Sorting Algorithm Visualizer",
     date: "September 2022",
     description:
@@ -244,7 +243,21 @@ export const projects = [
       "Javascript",
       "css"
     ],
-    github: "https://github.com/Biswajit2406/sorting_algorithm_visualizer",
-    webapp: "https://biswajit2406.github.io/sorting_algorithm_visualizer/",
+    link: "https://gbiswajit.github.io/Sorting_Algorithm_Visualizer/",
   },
+  /*{
+    id: 3,
+    title: "Portfolio Website",
+    date: "September 2023",
+    description:
+      "A responsive portfolio website using React Js that tells about my education, projects and work experience.",
+    image:
+      portfolio,
+    tags: [
+      "React",
+      "Javascript",
+      "css"
+    ],
+    link: "https://biswajit2406.github.io/sorting_algorithm_visualizer/",
+  },*/
 ];
