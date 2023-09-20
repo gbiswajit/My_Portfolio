@@ -2,6 +2,8 @@ import crypto from "../images/crypto.png"
 import sorting from "../images/sorting.png"
 import store from "../images/store.png"
 import portfolio from "../images/portfolio.png"
+import weather from "../images/weather.png"
+
 export const Bio = {
   name: "Biswajit Ghosh",
   roles: [
@@ -245,7 +247,7 @@ export const projects = [
     ],
     link: "https://gbiswajit.github.io/Sorting_Algorithm_Visualizer/",
   },
-  /*{
+  {
     id: 3,
     title: "Portfolio Website",
     date: "September 2023",
@@ -258,6 +260,21 @@ export const projects = [
       "Javascript",
       "css"
     ],
-    link: "https://biswajit2406.github.io/sorting_algorithm_visualizer/",
-  },*/
+    link: "https://gbiswajit.github.io/My_Portfolio/",
+  },
+  {
+    id: 3,
+    title: "Weather App",
+    date: "September 2023",
+    description:
+      "A weather app that can show current weather and forcast weather for next 7 days of any place",
+    image:
+      weather,
+    tags: [
+      "React-Native",
+      "tailwindcss",
+      "expo"
+    ],
+    link: "https://github.com/gbiswajit/Weather_App",
+  },
 ];
