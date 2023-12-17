@@ -198,6 +198,18 @@ export const experiences = [
     ],
     doc: "https://s3.ap-south-1.amazonaws.com/content.alphalearn.com/NExibWpibXp6ejQ9/VXlqak9NR3NaNjA9/certificate/MXkyMEhaVTZhb0E9.pdf",
   },
+  {
+    id: 1,
+    img: "https://media.trinkerr.com/asset-logos/MINDTECK.png",
+    role: "Member Technical Staff",
+    company: "Persistent Systems",
+    date: "December 2023 - Present",
+    desc: "I was got selected at Mindteck through on campus placement as Member of Technical Staff",
+    skills: [
+      "ASP.NET",
+      "C#"
+    ],
+  },
 ]
 
 export const projects = [
